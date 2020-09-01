@@ -12,7 +12,7 @@
 	<artifactId>tasks</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>tasks</name>
-	<description>Demo project for Angular & Spring boot</description>
+	<description>Demo project for Angular Spring boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
