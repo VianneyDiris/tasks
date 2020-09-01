@@ -1,4 +1,7 @@
 package com.vianneydiris.tasks.repository;
 
-public interface TaskRepository {
+import com.vianneydiris.tasks.domain.Task;
+import org.springframework.data.repository.CrudRepository;
+
+public interface TaskRepository extends CrudRepository<Task,Long> {
 }
