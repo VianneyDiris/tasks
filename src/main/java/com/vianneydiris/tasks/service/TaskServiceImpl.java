@@ -2,7 +2,9 @@ package com.vianneydiris.tasks.service;
 
 import com.vianneydiris.tasks.domain.Task;
 import com.vianneydiris.tasks.repository.TaskRepository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class TaskServiceImpl implements TaskService{
 
     private TaskRepository taskRepository;
